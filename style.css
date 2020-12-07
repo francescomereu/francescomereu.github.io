@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Title */
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 175%;
+    color: #340034;
+}
+
+
+/* Section elements: section, h2, p */
+
+section {
+    border: 1px solid black;
+    margin: 10px;
+    min-height: 300px;
+    max-height: 450px;
+}
+
+h2 {
+    background-color: #340034;
+    color: whitesmoke;
+    border: 1px solid black;
+    float: right;
+    padding: 5px; 
+}
+
+p {
+    padding: 60px 20px 20px 20px;
+    width: 90%;
+}
+
+/* Box: colors, positions... */
+
+.box {
+    width: 94%;
+    margin: auto;
+}
+
+.light {
+    background-color: salmon;
+}
+
+.medium {
+    background-color: crimson;
+}
+
+.dark {
+    background-color: brown;
+}
+
+/* Responsive elements */
+
+@media (min-width: 992px) {
+    .primo {
+        width: 33.33%;
+        float: left;
+    }
+    .secondo {
+        width: 33.33%;
+        float: left;
+    }
+    .terzo {
+        width: 33.33%;
+        float: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .primo {
+        width: 50%;
+        float: left;
+    }
+    .secondo {
+        width: 50%;
+        float: left;
+    }
+    .terzo {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media (max-width: 776px) {
+    .primo {
+        width: 100%;
+        float: left;
+    }
+    .secondo {
+        width: 100%;
+        float: left;
+    }
+    .terzo {
+        width: 100%;
+        float: left;
+    }
+}
