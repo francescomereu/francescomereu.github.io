@@ -25,16 +25,30 @@ section {
 }
 
 h2 {
-    background-color: #340034;
-    color: whitesmoke;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
     float: right;
     padding: 5px; 
 }
 
+.primo h2 {
+    background-color: #aa2020;
+    color: whitesmoke;
+}
+
+.secondo h2 {
+    background-color: maroon;
+    color: whitesmoke;
+}
+
+.terzo h2 {
+    background-color: #501010;
+    color: whitesmoke;
+}
+
 p {
     padding: 60px 20px 20px 20px;
-    width: 90%;
+    width: 90%;;
 }
 
 /* Box: colors, positions... */
@@ -44,17 +58,10 @@ p {
     margin: auto;
 }
 
-.light {
+.light, .medium, .dark {
     background-color: salmon;
 }
 
-.medium {
-    background-color: crimson;
-}
-
-.dark {
-    background-color: brown;
-}
 
 /* Responsive elements */
 
