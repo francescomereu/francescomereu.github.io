@@ -1,52 +1,133 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head> 
-    <body>
-    <h1>Some title here!</h1>
-    <div class="box">   
-        <div class="primo">
-            <section class="light">
-                <h2>Light</h2>
-            <p class="sinistra"> 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                deserunt mollit anim id est laborum. Neque porro quisquam est.
-            </p>
-            </section>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- INIZIO HEADER-->
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="#"><h1>Food, LLC</h1></a>
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> <!-- Queste sono le linee del burger menù-->
+          </button>
         </div>
-        <div class="secondo">
-            <section class="medium">
-                <h2>Medium</h2>
-            <p class="centro">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
-                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
-                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
-                sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione 
-                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
-                nostrum exercitationem ullam corporis suscipit laboriosam?
-            </p>
-        </section>
-        </div>
-        <div class="terzo">
-            <section class="dark">
-                <h2>Dark</h2>    
-            
-                <p class="destra">
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium 
-                    mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et 
-                    expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque 
-                    nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda 
-                    est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis occaecati 
-                    cupiditate non provident, similique sunt in culpa qui officia deserunt.
-                </p> 
-            </section>
-        </div>
-    </div>
-    </body>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs active">
+              <a href="#chicken">Chicken</a>
+            </li>
+            <li class="visible-xs active">
+              <a href="#beef">Beef</a>
+            </li>
+            <li class="visible-xs active">
+              <a href="#sushi">Sushi</a>
+            </li>
+          </ul>
+        </div><!-- qui si chiude .collapse .navbar-collapse -->
+      </div><!-- qui si chiude .container -->
+    </nav><!-- qui si chiude  #header-nav -->
+  </header>
+<!-- FINE HEADER-->
+
+<!-- INIZIO MAIN-->
+      <h2 id="title" class="text-center">Our Menu</h2>
+      <div id="main-content" class="container">
+        <div id="home" class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <h3 id="chicken" class="text-center">Chicken</h3>
+            <p>
+              When you see free-range chicken at the grocery store, it makes sense if you assume that the chicken 
+              was free to graze in a grassy pasture. Yet, that’s not always the case. 
+              According to the USDA, chickens labeled “free-range” must have had access to the outside. 
+              However, the regulation doesn’t specify how large the outdoor area needs to be or how long the chickens 
+              must have access to it. <br> As a result, chickens can be crowded into a small outdoor space for just a few 
+              minutes per day and still qualify for the free-range label. There’s also no requirement for the type 
+              of outdoor space. This means that instead of grass to graze on, the chickens may only have access 
+              to a small square of dirt or gravel. Furthermore, according to a report done by the Animal Welfare Institute, 
+              the USDA doesn’t conduct audits on facilities to check for an outdoor space. In fact, the report found that 
+              very little evidence is required to support outdoor access claims. However, this doesn’t mean that all 
+              free-range chicken is a scam. <br>
+              Low on cash? There are also tons of cheap dinner ideas that will go easy on your wallet. 
+              But let's say you're really into chicken. You're in luck! It can be prepared in a number of tasty ways, 
+              and we've come up with so many dishes bursting with different flavors—a little something for everyone 
+              (yes, even the pickiest ones)—and ways to show off your cooking skills. With so many different options to choose 
+              from, your family won't have to eat the same thing for months on end, even if they're begging for seconds! <br>
+              <span>(End of Chicken section) <a href="#title">Back to top</a></span>            
+          </p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <h3 id="beef" class="text-center">Beef</h3>
+            <p>
+              Is there anything better than a well-cooked steak? Not a well done steak, of course… I’m talking about steak 
+              that’s perfectly crispy on the outside and juicy on the inside. I like medium rare steak because it has a rich, 
+              buttery flavor and a melt-in-your-mouth tenderness that disappears as soon as it’s cooked any further. 
+              It’s that exact moment of doneness that makes this task seem like a daunting feat. I’m a former restaurant chef, 
+              and I’d love to share a few steak-cooking secrets that will help you pull off medium rare. <br>
+              A medium rare steak has a warm, red center that oozes with juicy, beef-forward flavor. You’ve officially reached 
+              medium rare when you hit 130° to 135°F, a temperature at which the proteins within the meat start to denature 
+              but can’t fully finish. The result is a steak with the perfect amount of tender chewiness. Since the moisture 
+              inside the steak can’t escape at these low temperatures, your steak turns out as juicy as possible.<br>
+              The most fool-proof way to know for sure that your steak is in the medium rare range is to use an instant-read 
+              thermometer. Sure, you could follow a time-and-temperature chart based on the thickness of the steak, or use the 
+              touch-test method (the center of the steak should feel like the space between your thumb and forefinger). 
+              But a thermometer allows you to know—not guess—that your steak has reached the medium rare range.<br>
+              <span>(End of Beef section) <a href="#title">Back to top</a></span>            
+          </p>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <h3 id="sushi" class="text-center">Sushi</h3>
+            <p>
+              Nigirizushi, or nigiri is made with special sushi rice treated with vinegar . This vinegared rice, balled and 
+              pressed with two fingers forms the base of the nigiri. A slice of raw fish is then placed on the rice base, 
+              at times with a speck of wasabi. Sashimi is slices of fresh raw fish (sometimes, meat) presented with several 
+              types of garnishes. The quality of sashimi lies in the freshness of fish, the way it’s sliced, presented and 
+              garnished. Common garnishes include shredded daikon radish, shiso leaves, or toasted nori (sea weed).
+              Both nigiri and sashimi are accompanied with pickled ginger and wasabi with soy sauce. <br>
+              Nigiri in Japanese means two fingers (ni = two, giri = fingers). Nigiri sushi gets its name from the rice which 
+              has to be of a very specific portion and fit on the chef’s “two fingers” when pressing. Sushi is a Japanese 
+              term that refers to anything made with vinegared rice. Sashimi is a Japanese term for pierced flesh (Sashi = 
+              pierced, mi = flesh). The term may have originated from the culinary practice of sticking the fish’s tail and 
+              fin to the slices in identifying the fish being eaten. Another possibility for the name could come from the 
+              traditional method of harvesting - ‘Sashimi Grade’ fish is caught by individual hand line. As soon as the fish 
+              is landed, it is pierced with a sharp spike and placed in a body of ice. <br>
+              These are popular because most sushi beginners find these easier on the palate. You will also often find Tako (octopus), Ika (squid), Kani 
+              (crab), Ikura (salmon roe), Awagi (abalone) and Kazunoko (herring roe), which have a distinct flavor and takes some 
+              getting used to. Favorite fish for sashimi include Maguro (tuna), Sake (salmon), Hamachi (yellowtail), Tai 
+              (red snapper), Kihada (yellowfin tuna), Saba (mackerel), Tako (Octopus) and even raw red meats such as Gyuunotataki 
+              (beef), Basashi (horse) and Torisashi (chicken). Toriwasa (slightly seared chicken), a variation of Torisashi, 
+              is also a popular Sashimi delicacy. <br>
+              <span>(End of Sushi section) <a href="#title">Back to top</a></span>
+          </p>
+          </div>
+         </div>
+      </div>
+<!-- FINE MAIN-->
+
+<!-- INIZIO FOOTER-->
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="text-center">Francesco Mereu &copy; | 2020</div>
+      </div>
+    </footer>
+<!-- FINE FOOTER-->
+
+      <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
 </html>

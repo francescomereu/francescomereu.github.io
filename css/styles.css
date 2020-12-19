@@ -1,0 +1,164 @@
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 20px;
+  color: #000;
+  background-color: #ddd;
+}
+
+/** INIZIO HEADER **/
+#header-nav {
+  background-color: #b1bbbb;
+  border-radius: 0;
+  border: 0;
+  height: 80px;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+}
+.navbar-brand h1 { /* Food, LLC */
+  color: #222;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  background-color: #b1bbbb;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #ddd;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #222;
+  background-color: #b1bbbb;
+}
+.navbar-header button.navbar-toggle { /* Posizione del BUTTON */
+  clear: both;
+  margin-top: -60px;
+}
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+#main-content {
+  background-color: #fff;
+  width: 90%;
+}
+
+#main-content #home {
+  padding: 40px;
+}
+
+#main-content #home p {
+  margin-top: 30px;
+}
+
+/* INIZIO FOOTER */
+.panel-footer {
+  margin-top: 80px;
+  padding: 20px 0px;
+  color: #222;
+  font-size: .8em;
+  background-color: #b1bbbb;
+  border-top: 0;
+}
+
+p span {
+  font-size: .7em;
+}
+/* FINE FOOTER */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  /* INIZIO HEADER */
+  /* FINE HEADER */
+
+  /* INIZIO MAIN */
+  /* FINE MAIN */
+
+  /* INIZIO FOOTER */
+  /* FINE FOOTER */
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* INIZIO HEADER */
+  .navbar-brand {
+    
+  }
+  /* FINE HEADER */
+
+  /* INIZIO MAIN */
+  /* FINE MAIN */
+
+  /* INIZIO FOOTER */
+  /* FINE FOOTER */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    /* INIZIO HEADER */
+  /* FINE HEADER */
+
+  /* INIZIO MAIN */
+  /* FINE MAIN */
+
+    /* INIZIO FOOTER */
+  /* FINE FOOTER */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* INIZIO HEADER */
+  #header-nav {
+    z-index: 1;
+  }
+
+  .navbar-brand {
+    vertical-align: auto;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 5vw; 
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.5em;
+    line-height: 2em;
+  }
+  /* FINE HEADER*/
+
+  /* INIZIO MAIN */
+  #main-content #home {
+    padding: 20px;
+  }
+
+  #main-content #home p {
+    font-size: .8em;
+    line-height: 1.6em;
+  }
+  /* FINE MAIN */
+  
+  /* INIZIO FOOTER */
+  /* FINE FOOTER */
+}
